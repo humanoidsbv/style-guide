@@ -7,7 +7,7 @@
 **Install**:
 
 ```bash
-$ yarn add --dev @humanoids/prettier-config
+$ npm i --dev @humanoids/prettier-config
 ```
 
 **Edit `package.json`**:
