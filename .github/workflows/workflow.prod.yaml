@@ -29,3 +29,5 @@ jobs:
 
       - name: Publish npm package
         run: lerna publish from-package --yes
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
