@@ -1,0 +1,27 @@
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    name: Build, push, and deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout master
+        uses: actions/checkout@master
+
+      - uses: actions/setup-node@v1
+        with:
+          node-version: "12.x"
+          registry-url: "https://registry.npmjs.org"
+
+      - name: Open eslint-config package
+        uses: cd packages/eslint-config
+
+      - name: Install and update all Node packages
+        run: npm install
+
+      - uses: JS-DevTools/npm-publish@v1
+        with:
+          token: ${{ secrets.NPM_TOKEN }}

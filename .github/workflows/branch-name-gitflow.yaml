@@ -1,0 +1,14 @@
+on:
+  push:
+    branches:
+      - 'feature/*'
+      - 'hotfix/*'
+      - 'release/*'
+
+jobs:
+  build:
+    name: Branch name check (Gitflow)
+    runs-on: ubuntu-latest
+    steps:
+      - name: Branch name matches Gitflow
+        run: exit 0
