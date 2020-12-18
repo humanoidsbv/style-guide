@@ -19,8 +19,10 @@ jobs:
       - name: Link local packages together and install remaining package dependencies
         uses: lerna bootstrap
 
-      - name: Import the package in the local path
-        uses: lerna import ./packages/eslint-config
+      - name: Set the token for publishing to npm
+        run: echo //registry.npmjs.org/:_authToken=${NPM_TOKEN} > .npmrc
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
 
       - name: Publish npm package
         uses: lerna publish
