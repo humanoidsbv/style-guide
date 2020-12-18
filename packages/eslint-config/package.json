@@ -1,0 +1,41 @@
+{
+  "name": "@humanoids/eslint-config",
+  "version": "0.0.3",
+  "description": "Humanoids ESLint configuration for React",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "@humanoids/eslint-config"
+  },
+  "keywords": [
+    "eslint",
+    "config",
+    "configuration",
+    "react",
+    "typescript",
+    "prettier",
+    "humanoids"
+  ],
+  "author": "Ruben Werdmuller, Doenja Maris",
+  "license": "ISC",
+  "peerDependencies": {
+    "eslint": ">= 3",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.21.5",
+    "@typescript-eslint/eslint-plugin": "^4.8.1"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.8.1",
+    "@typescript-eslint/parser": "^4.8.1",
+    "eslint": "^7.13.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.21.5"
+  }
+}

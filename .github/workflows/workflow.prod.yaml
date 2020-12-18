@@ -13,15 +13,14 @@ jobs:
 
       - uses: actions/setup-node@v1
         with:
-          node-version: "12.x"
-          registry-url: "https://registry.npmjs.org"
+          node-version: '12.x'
+          registry-url: 'https://registry.npmjs.org'
 
-      - name: Open eslint-config package
-        uses: cd packages/eslint-config
+      - name: Link local packages together and install remaining package dependencies
+        uses: lerna bootstrap
 
-      - name: Install and update all Node packages
-        run: npm install
+      - name: Import the package in the local path
+        uses: lerna import ./packages/eslint-config
 
-      - uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
+      - name: Publish npm package
+        uses: lerna publish
