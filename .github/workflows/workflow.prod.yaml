@@ -31,4 +31,4 @@ jobs:
         run: lerna version patch --yes --no-push --no-git-tag-version
 
       - name: Publish npm package
-        run: lerna publish --yes from-package
+        run: lerna publish from-package --yes
