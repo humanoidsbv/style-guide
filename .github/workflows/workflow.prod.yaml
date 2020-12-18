@@ -16,14 +16,11 @@ jobs:
           node-version: '14.x'
           registry-url: 'https://registry.npmjs.org'
 
-      - name: Install Lerna CLI
-        run: npm i -g lerna
-
-      - name: Link local packages together and install remaining package dependencies
-        run: lerna bootstrap
-
       - name: Set the token for publishing to npm
         run: echo //registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }} > .npmrc
+
+      - name: Install Lerna CLI
+        run: npm i -g lerna
 
       - name: Publish npm package
         run: lerna publish from-package --yes
