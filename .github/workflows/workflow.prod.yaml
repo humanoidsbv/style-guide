@@ -27,8 +27,5 @@ jobs:
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
 
-      - name: Set access to public
-        run: npm config set access public
-
       - name: Publish npm package
         run: lerna publish from-package --yes
