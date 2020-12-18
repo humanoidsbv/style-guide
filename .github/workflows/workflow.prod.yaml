@@ -27,5 +27,8 @@ jobs:
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
 
+      - name: Set lerna version
+        run: lerna version patch
+
       - name: Publish npm package
         run: lerna publish --yes
