@@ -5,7 +5,7 @@ on:
 
 jobs:
   build:
-    name: Build, push, and deploy
+    name: Publish npm packages
     runs-on: ubuntu-latest
     steps:
       - name: Checkout master
