@@ -1,0 +1,23 @@
+{
+  "name": "@humanoids/style-guide",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Humanoids style guide",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/humanoidsbv/style-guide.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/humanoidsbv/style-guide/issues"
+  },
+  "homepage": "https://github.com/humanoidsbv/style-guide#readme",
+  "dependencies": {
+    "lerna": "^3.22.1"
+  }
+}
