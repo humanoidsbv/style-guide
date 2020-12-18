@@ -22,21 +22,13 @@ jobs:
       - name: Link local packages together and install remaining package dependencies
         run: lerna bootstrap
 
-      - name: Git Identity
-        run: |
-          git config --global user.name 'doenja'
-          git config --global user.email 'doenjamaris@gmail.com'
-          git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/$GITHUB_REPOSITORY
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
       - name: Set the token for publishing to npm
         run: echo //registry.npmjs.org/:_authToken=${NPM_TOKEN} > .npmrc
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
 
       - name: Set lerna version
-        run: lerna version patch --yes
+        run: lerna version patch --yes --no-push
 
       - name: Publish npm package
         run: lerna publish --yes
