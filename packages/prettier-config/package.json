@@ -14,7 +14,15 @@
     "type": "git",
     "url": "git+https://github.com/humanoidsbv/style-guide.git"
   },
-  "author": "",
+  "keywords": [
+    "config",
+    "configuration",
+    "react",
+    "typescript",
+    "prettier",
+    "humanoids"
+  ],
+  "author": ["Ruben Werdmuller", "Doenja Maris"],
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/humanoidsbv/style-guide/issues"
