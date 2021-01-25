@@ -23,7 +23,7 @@
     "prettier",
     "humanoids"
   ],
-  "author": "Ruben Werdmuller, Doenja Maris",
+  "author": ["Ruben Werdmuller", "Doenja Maris"],
   "license": "ISC",
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.8.1",
