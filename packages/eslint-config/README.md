@@ -7,7 +7,9 @@
 **Install**:
 
 ```bash
-$ npm install eslint --save-dev
+$ npm i --dev eslint
+
+$ npm i --dev eslint-plugin-react-hooks
 
 $ npm i --dev @humanoids/eslint-config
 ```
