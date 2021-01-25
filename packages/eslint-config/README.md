@@ -12,7 +12,7 @@ $ npm install eslint --save-dev
 $ npm i --dev @humanoids/eslint-config
 ```
 
-**Create `.eslint.js`**
+**Create `.eslintrc.js`**
 
 ```jsonc
 module.exports = {
