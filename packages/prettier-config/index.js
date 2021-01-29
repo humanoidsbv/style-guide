@@ -1,4 +1,4 @@
-{
+module.exports = {
   "arrowParens": "always", // default
   "bracketSpacing": true, // default
   "semi": true, // default
