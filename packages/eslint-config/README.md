@@ -7,11 +7,11 @@
 **Install**:
 
 ```bash
-$ npm i --dev eslint
+$ npm i --save-dev eslint
 
-$ npm i --dev eslint-plugin-react-hooks
+$ npm i --save-dev eslint-plugin-react-hooks
 
-$ npm i --dev @humanoids/eslint-config
+$ npm i --save-dev @humanoids/eslint-config
 ```
 
 **Create `.eslintrc.js`**
