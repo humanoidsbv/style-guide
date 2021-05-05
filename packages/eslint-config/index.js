@@ -32,6 +32,7 @@ module.exports = {
   rules: {
     'react/jsx-filename-extension': [2, { extensions: ['.tsx'] }],
     'import/extensions': ['error', 'never', { svg: 'always' }],
+    'import/prefer-default-export': 'off',
     'no-use-before-define': 'off',
     '@typescript-eslint/no-use-before-define': ['error'],
     'no-underscore-dangle': 'off'
