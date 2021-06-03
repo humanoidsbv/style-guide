@@ -1,6 +1,6 @@
 {
   "name": "@humanoids/eslint-config",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Humanoids ESLint configuration for React",
   "main": "index.js",
   "scripts": {
@@ -23,7 +23,10 @@
     "prettier",
     "humanoids"
   ],
-  "contributors": ["Ruben Werdmuller", "Doenja Maris"],
+  "contributors": [
+    "Ruben Werdmuller",
+    "Doenja Maris"
+  ],
   "license": "ISC",
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.8.1",
