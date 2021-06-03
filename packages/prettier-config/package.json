@@ -1,6 +1,6 @@
 {
   "name": "@humanoids/prettier-config",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Humanoids Prettier config",
   "main": "index.js",
   "scripts": {
@@ -22,7 +22,10 @@
     "prettier",
     "humanoids"
   ],
-  "author": ["Ruben Werdmuller", "Doenja Maris"],
+  "author": [
+    "Ruben Werdmuller",
+    "Doenja Maris"
+  ],
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/humanoidsbv/style-guide/issues"
