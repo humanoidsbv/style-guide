@@ -1,6 +1,6 @@
 {
   "name": "@humanoids/eslint-config",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "Humanoids ESLint configuration for React",
   "main": "index.js",
   "scripts": {
