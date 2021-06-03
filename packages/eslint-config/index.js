@@ -32,6 +32,7 @@ module.exports = {
   rules: {
     '@typescript-eslint/no-use-before-define': ['error'],
     'import/extensions': ['error', 'never', { svg: 'always' }],
+    'import/prefer-default-export': 'off',
     'no-underscore-dangle': 'off',
     'no-unused-vars': 'warning',
     'no-use-before-define': 'off',
