@@ -30,10 +30,14 @@ module.exports = {
     },
   },
   rules: {
-    'react/jsx-filename-extension': [2, { extensions: ['.tsx'] }],
-    'import/extensions': ['error', 'never', { svg: 'always' }],
-    'no-use-before-define': 'off',
     '@typescript-eslint/no-use-before-define': ['error'],
-    'no-underscore-dangle': 'off'
+    'import/extensions': ['error', 'never', { svg: 'always' }],
+    'no-underscore-dangle': 'off',
+    'no-unused-vars': 'warning',
+    'no-use-before-define': 'off',
+    'react/jsx-filename-extension': [2, { extensions: ['.tsx'] }],
+    'react/jsx-props-no-spreading': "false",
+    'react/prop-types': "off",
+    'react/require-default-props': "false",
   },
 };
