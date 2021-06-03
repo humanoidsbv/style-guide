@@ -37,8 +37,8 @@ module.exports = {
     'no-unused-vars': 'warn',
     'no-use-before-define': 'off',
     'react/jsx-filename-extension': [2, { extensions: ['.tsx'] }],
-    'react/jsx-props-no-spreading': "false",
+    'react/jsx-props-no-spreading': "off",
     'react/prop-types': "off",
-    'react/require-default-props': "false",
+    'react/require-default-props': "off",
   },
 };
