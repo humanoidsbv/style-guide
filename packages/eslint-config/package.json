@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "@humanoids/eslint-config"
+    "url": "https://github.com/humanoidsbv/style-guide/tree/master/packages/eslint-config"
   },
   "keywords": [
     "eslint",
@@ -23,7 +23,7 @@
     "prettier",
     "humanoids"
   ],
-  "author": ["Ruben Werdmuller", "Doenja Maris"],
+  "contributors": ["Ruben Werdmuller", "Doenja Maris"],
   "license": "ISC",
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.8.1",
