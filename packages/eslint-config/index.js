@@ -34,7 +34,7 @@ module.exports = {
     'import/extensions': ['error', 'never', { svg: 'always' }],
     'import/prefer-default-export': 'off',
     'no-underscore-dangle': 'off',
-    'no-unused-vars': 'warning',
+    'no-unused-vars': 'warn',
     'no-use-before-define': 'off',
     'react/jsx-filename-extension': [2, { extensions: ['.tsx'] }],
     'react/jsx-props-no-spreading': "false",
