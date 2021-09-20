@@ -9,7 +9,7 @@
 ```bash
 $ npm i prettier --save-dev
 
-$ npm i -d @humanoids/prettier-config --save-dev
+$ npm i @humanoids/prettier-config --save-dev
 ```
 
 **Create `.prettierrc`**:
