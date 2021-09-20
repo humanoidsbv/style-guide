@@ -7,13 +7,13 @@
 **Install**:
 
 ```bash
-$ npm i prettier
+$ npm i prettier --save-dev
 
-$ npm i @humanoids/prettier-config
+$ npm i -d @humanoids/prettier-config --save-dev
 ```
 
 **Create `.prettierrc`**:
 
 ```jsonc
-“@humanoids/prettier-config” 
+"@humanoids/prettier-config" 
 ```
