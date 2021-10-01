@@ -1,6 +1,6 @@
 # `@humanoids/eslint-config`
 
-> The humanoids [Eslint](https://eslint.org/) config.
+> The Humanoids [Eslint](https://eslint.org/) config.
 
 ## Usage
 
