@@ -21,7 +21,7 @@
     "lerna": "^3.22.1"
   },
   "devDependencies": {
-    "@humanoids/eslint-config": "0.0.12",
-    "@humanoids/prettier-config": "0.0.4"
+    "@humanoids/eslint-config": "^0.0.12",
+    "@humanoids/prettier-config": "^0.0.4"
   }
 }
