@@ -1,6 +1,6 @@
 {
   "name": "@humanoids/style-guide",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": true,
   "description": "Humanoids style guide",
   "main": "index.js",
@@ -19,5 +19,9 @@
   "homepage": "https://github.com/humanoidsbv/style-guide#readme",
   "dependencies": {
     "lerna": "^3.22.1"
+  },
+  "devDependencies": {
+    "@humanoids/eslint-config": "^0.0.12",
+    "@humanoids/prettier-config": "^0.0.4"
   }
 }

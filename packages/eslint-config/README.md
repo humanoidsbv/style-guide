@@ -1,6 +1,6 @@
 # `@humanoids/eslint-config`
 
-> The humanoids [Eslint](https://eslint.org/) config.
+> The Humanoids [ESLint](https://eslint.org/) configuration for React and TypeScript.
 
 ## Usage
 
