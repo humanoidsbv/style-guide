@@ -13,7 +13,7 @@ module.exports = {
     ecmaVersion: 12,
     sourceType: "module",
   },
-  plugins: ["@typescript-eslint", "jsx-a11y", "react"],
+  plugins: ["@typescript-eslint", "jsx-a11y", "react", "react/jsx-runtime"],
   settings: {
     "import/resolver": {
       node: {
@@ -26,7 +26,8 @@ module.exports = {
     "@typescript-eslint/no-unused-vars": "error",
     "@typescript-eslint/no-use-before-define": ["error"],
     "import/extensions": ["error", "never", { svg: "always" }],
-    "import/no-default-export": "error",
+    "import/no-default-export": "off",
+    "import/prefer-default-export": "off",
     "no-underscore-dangle": "off",
     "no-use-before-define": "off",
     "no-unused-vars": "off",
