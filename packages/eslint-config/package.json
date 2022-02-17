@@ -1,6 +1,6 @@
 {
   "name": "@humanoids/eslint-config",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "description": "Humanoids ESLint configuration",
   "main": "index.js",
   "scripts": {
@@ -25,7 +25,8 @@
   ],
   "contributors": [
     "Ruben Werdmuller",
-    "Doenja Maris"
+    "Doenja Maris",
+    "Maurice Markslag"
   ],
   "license": "ISC",
   "peerDependencies": {
