@@ -11,7 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/humanoidsbv/style-guide.git"
   },
-  "author": "Robbin Habermehl, Ruben Werdmuller, Doenja Maris",
+  "author": "Robbin Habermehl, Ruben Werdmuller, Doenja Maris, Maurice Markslag",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/humanoidsbv/style-guide/issues"
@@ -21,7 +21,7 @@
     "lerna": "^3.22.1"
   },
   "devDependencies": {
-    "@humanoids/eslint-config": "^0.0.12",
+    "@humanoids/eslint-config": "^0.0.13",
     "@humanoids/prettier-config": "^0.0.4"
   }
 }
