@@ -18,7 +18,6 @@
   },
   "homepage": "https://github.com/humanoidsbv/style-guide#readme",
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.13.0",
     "lerna": "^3.22.1"
   },
   "devDependencies": {
