@@ -13,7 +13,7 @@ module.exports = {
     ecmaVersion: 12,
     sourceType: "module",
   },
-  plugins: ["@typescript-eslint", "jsx-a11y", "react", "react/jsx-runtime"],
+  plugins: ["@typescript-eslint", "jsx-a11y", "react"],
   settings: {
     "import/resolver": {
       node: {
