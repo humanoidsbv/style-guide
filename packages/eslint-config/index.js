@@ -4,13 +4,13 @@ module.exports = {
     browser: true,
     es2021: true,
   },
-  extends: ["plugin:react/recommended", "airbnb", "prettier"],
+  extends: ["plugin:react/recommended", "airbnb", "prettier", "plugin:@next/next/recommended"],
   parserOptions: {
     ecmaFeatures: {
       ts: true,
       tsx: true,
     },
-    ecmaVersion: 12,
+    ecmaVersion: 14,
     sourceType: "module",
   },
   plugins: ["@typescript-eslint", "jsx-a11y", "react"],

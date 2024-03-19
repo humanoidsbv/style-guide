@@ -1,17 +1,13 @@
 # `@humanoids/eslint-config`
 
-> The Humanoids [ESLint](https://eslint.org/) configuration for React and TypeScript.
+> The Humanoids [ESLint](https://eslint.org/) configuration for React and TypeScript, in combination with Next.js.
 
 ## Usage
 
 **Install**:
 
 ```bash
-$ npm i --save-dev eslint
-
-$ npm i --save-dev eslint-plugin-react-hooks
-
-$ npm i --save-dev @humanoids/eslint-config
+npm i --save-dev @humanoids/eslint-config
 ```
 
 **Create `.eslintrc.js`**
